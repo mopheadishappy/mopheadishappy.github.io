@@ -1,7 +1,121 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML w3school</title>
+        <link rel="stylesheet" href="./CSS.css">
+    </header>
+    <body>
+        <h1>HTML</h1>
+        <section>
+        <ul>
+            <li>HTML ย่อมาจาก <span class="code">Hyper Text Markup Language</span></li>
+            <li>HTML คือภาษากำกับขั้นพื้นฐานที่ใช้สำหรับการสร้างเว็บเพจ</li>
+            <li>HTML อธิบายโครงสร้างของเว็บเพจ</li>
+            <li>ส่วนประกอบของ HTML จะบอกเบราเซอร์ว่าต้องแสดงผลอย่างไร</li>
+            <li>ส่วนประกอบของ HTML จะทำหน้าที่กำหนดลักษณะของเนื้อหา เช่น "นี่คือหัวข้อ", "นี่คือย่อหน้า", "นี่คือลิงก์" เป็นต้น</li>
+        </ul>
+        </setion>
+      <hr>
+    <section>
+        <h2>ตัวอย่างเอกสาร HTML</h2>
+        <pre style="background-color: lightblue; padding: 5px; color: red; margin-right: 550px;">
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My First Paragraph&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</pre>
+        <strong><h3>อธิบายโค้ดในตัวอย่าง</h3></strong>
+        <ul>
+            <li><span class="code">&lt;!DOCTYPE html&gt;</span> เป็นตัวบ่งบอกว่าเอกสารนี้เป็น HTML5</li>
+            <li><span class="code">&lt;html&gt;</span> คือรากพื้นฐานของเว็บเพจ HTML</li>
+            <li><span class="code">&lt;title&gt;</span> จะกำหนดชื่อเว็บเพจ HTML (ซึ่งจะแสดงในเว็บเบราเซอร์ title bar หรือ page tab)</li>
+            <li><span class="code">&lt;body&gt;</span> กำหนดเนื้อหาหลักของเอกสาร เป็นคอนเทนเนอร์สำหรับเนื้อหาที่มองเห็นได้ทั้งหมด เช่น หัวข้อ ย่อหน้า รูปภาพ ไฮเปอร์ลิงก์ ตาราง รายการ ฯลฯ</li>
+            <li><span class="code">&lt;h1&gt;</span> กำหนดหัวข้อใหญ่</li>
+            <li><span class="code">&lt;body&gt;</span> กำหนดย่อหน้า</li>
+        </ul>
+      <hr>
+        <section>
+        <h2>HTML element คืออะไร</h2>
+        <p>ส่วนประกอบ HTML จะถูกกำหนดโดยแท็กเปิด คอนเทนต์ และแท็กปิด:</p>
+        <p><span class="code">&lt;tagname&gt;</span>คอนเทนต์ที่ต้องการใส่<span class="code">&lt;/tagname&gt;</span></p>
+          <p>ส่วนประกอบ HTML คือทุกอย่างตั้งแต่แท็กเปิดจนถึงแท็กปิด:</p>
+          <pre style="background-color: lightblue; color: red; margin-right: 550px;">&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;</pre>
+          <table style="width:100%">
+            <tr>
+              <th>Start tag</th>
+              <th>Element content</th>
+              <th>End tag</th>
+            </tr>
+            <tr>
+              <td>&lt;h1&gt;</td>
+              <td>My First Heading</td>
+              <td>&lt;/h1&gt;</td>
+            </tr>
+            <tr>
+              <td>&lt;p&gt;</td>
+              <td>My first paragraph</td>
+              <td>&lt;/p&gt;</td>
+            </tr>
+            <tr>
+              <td>&lt;br&gt;</td>
+              <td>none</td>
+              <td>none</td>
+            </tr>
+          </table>
+          <p style="background-color: lightblue; margin-right: 80px"><strong>หมายเหตุ:</strong>  บางส่วนประกอบไม่จำเป็นต้องมีคอนเทนต์ เช่น &lt;br&gt; ซึ่งส่วนประกอบเช่นนี้เรียกว่า empty element <br>โดย empty element จะไม่มีแท็กปิด</p>
+        </section>
+      <hr>
+      <section>
+        <h2>เว็บเบราเซอร์</h2>
+        <p>จุดประสงค์ของเว็บเบราว์เซอร์ (เช่น Chrome, Edge, Firefox, Safari) คือการอ่านเอกสาร HTML และแสดงผลอย่างถูกต้อง<br>เบราว์เซอร์จะไม่แสดงแท็ก HTML แต่จะใช้แท็กเหล่านี้เพื่อกำหนดวิธีการแสดงผลเอกสาร</p>
+        <img src="https://www.w3schools.com/html/img_chrome.png" alt="browser" style="width:300px;height:300px;">
+      </section>
+      <hr>
+      <section>
+        <h2>โครงสร้างเว็บ HTML</h2>
+        <p>ภาพแสดงโครงสร้างของหน้า HTML</p>
+        <div class="ws-grey" style="width:99%;border:1px solid grey;padding:3px;margin:0;">&lt;html&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
+</div>
+&lt;/head&gt;
+</div>
+<div class="ws-grey" style="width:90%;border:1px solid grey;padding:3px;margin:20px;">&lt;body&gt;
+<div class="w3-white" style="width:90%;border:1px solid grey;padding:3px;margin:20px;">
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is another paragraph.&lt;/p&gt;</div>
+</div>
+&lt;/body&gt;
+</div>
+&lt;/html&gt;
+</div>
+        <p style="background-color: tomato;"><strong>หมายเหตุ:</strong> เนื้อหาภายในส่วน &lt;body&gt; จะถูกแสดงผลในเบราว์เซอร์ ส่วนเนื้อหาภายในส่วน &lt;title&gt; จะถูกแสดงใน title bar ของเบราว์เซอร์หรือใน page tab</p>
+      </section>
+<hr>     
+      <section>
+        <h2>HTML Documents</h2>
+        <p>ไฟล์ HTML ทุกอันจะต้องขึ้นต้นด้วยการประกาศประเภทของเอกสารโดยการใช้&emsp;<span class="code">&lt;!DOCTYPE html&gt;</span></p>
+        <p>ไฟล์ HTML นั้นเริ่มขึ้นด้วย  <span class="code">&lt;html&gt;</span> และปิดท้ายด้วย <span class="code">&lt;/html&gt;</span></p>
+        <p>ส่วนที่แสดงบนหน้าเว็บของเอกสาร HTML จะอยู่ใน <span class="code">&lt;body&gt;</span> และ <span class="code">&lt;/body&gt;</span></p>
+      </section>
+      <hr>
+      <section>
+        <h2>The &lt;!DOCTYPE&gt; Declaration</h2>
+        <p>การประกาศ <span class="code">&lt;!DOCTYPE&gt;</span> ใช้เพื่อบ่งบอกประเภทของเอกสาร และช่วยให้เบราเซอร์แสดงหน้าเว็บได้ถูกต้อง</p>
+        <p>การประกาศประเภทของเอกสารจะเกิดขึ้นครั้งเดียว ที่ด้านบนสุดของการเขียนโค้ด (อยู่ก่อนแท็ก HTML)</p>
+        <p>การประกาศ <span class="code">&lt;!DOCTYPE&gt;</span>  ไม่เป็น case sensitive
+        <p>การประกาศ <span class="code">&lt;!DOCTYPE&gt;</span> ของ HTML5 คือ</p>
+        <p style="background-color: lightblue; margin-right: 600px;">&lt;!DOCTYPE HTML&gt;</p>
+        
+        
+      </section>
+    </body>
 </html>
