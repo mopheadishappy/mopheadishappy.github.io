@@ -1,0 +1,21 @@
+h1 {
+    color: tomato;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+td {
+    text-align: center;
+}
+
+table {
+    align-content: center;
+}
+
+body {
+    background-color: lightgray;
+}
